@@ -1,0 +1,100 @@
+* {
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blue;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    background-color: cadetblue;
+    height: 80vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.plyers {
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    height: 50vh;
+    justify-content: space-between;
+}
+
+.plyers section {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 40vw;
+}
+
+#Rolsl {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+#dice1 {
+    display: none;
+    width: 25vw;
+    height: 10vh;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+#dice2 {
+    display: none;
+    width: 25vw;
+    height: 10vh;
+    background-size: cover;
+    border-radius: 10px;
+
+}
+
+.buttons button {
+    background-color: white;
+    border: none;
+    display: flex;
+    padding: 10px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+#new {
+    background-color: blue;
+    border: solid 1px white;
+    color: white;
+}
+
+#max {
+    background-color: rgba(255, 255, 255, 0.76);
+    position: absolute;
+    top: 6vh;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.plyers .win {
+    background: rgb(54, 218, 54);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 40vw;
+}
+
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two Player Dice Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <h2 id="max">The max score is :<strong id="maxscore">100</strong></h2>
+    <main id="main">
+        <div class="plyers">
+            <section id="plyer1">
+                <h3>plyer 1</h3>
+                <h2 id="score1">0</h2>
+                <div>
+                    <p>Current Score</p>
+                    <h3 id="cor1">0</h3>
+                </div>
+            </section>
+            <section id="plyer2">
+                <h3>plyer 2</h3>
+                <h2 id="score2">0</h2>
+                <div>
+                    <p>Current Score</p>
+                    <h3 id="cor2">0</h3>
+                </div>
+            </section>
+        </div>
+        <section id="Rolsl">
+            <div id="dice1"></div>
+            <div id="dice2"></div>
+            <div></div>
+        </section>
+        <section class="buttons">
+            <a href=""><button id="new">new game</button></a>
+            <button id="roll">roll dice(<p id="count">5</p>)</button>
+            <button id="hold">hold</button>
+        </section>
+    </main>
+</body>
+
+</html>
